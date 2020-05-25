@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF02019123D3F2B2003CDD00 /* Leetcode149.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF02019023D3F2B2003CDD00 /* Leetcode149.cpp */; };
+		BF1D8A83237BD98100C26856 /* Leetcode128.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF1D8A82237BD98100C26856 /* Leetcode128.cpp */; };
+		BF229D2123D52E0100AB63B9 /* GCD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF229D2023D52E0000AB63B9 /* GCD.cpp */; };
+		BF3CAF8B238B909E0095EF82 /* Leetcode217.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3CAF8A238B909D0095EF82 /* Leetcode217.cpp */; };
+		BF3CAF8F238BA5AB0095EF82 /* Leetcode204.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3CAF8E238BA5AB0095EF82 /* Leetcode204.cpp */; };
+		BF3CAF97238BA5E70095EF82 /* Leetcode210.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3CAF96238BA5E70095EF82 /* Leetcode210.cpp */; };
+		BF3CAFA8238CE1D60095EF82 /* Leetcode206.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3CAF90238BA5BA0095EF82 /* Leetcode206.cpp */; };
+		BF3CAFA9238E12590095EF82 /* Leetcode202.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3CAF8C238BA4640095EF82 /* Leetcode202.cpp */; };
+		BF3CAFCF238F53580095EF82 /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3CAFCE238F53580095EF82 /* Stack.cpp */; };
+		BF3CAFD1238F5E410095EF82 /* Queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF3CAFD0238F5E410095EF82 /* Queue.cpp */; };
+		BF45C10D23CC2A86006694A1 /* TestString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF45C10C23CC2A86006694A1 /* TestString.cpp */; };
+		BF45C12C23CC5E1B006694A1 /* Leetcode44.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC5FC8D235D4F4C00FBD009 /* Leetcode44.cpp */; };
+		BF49ACE923A8B61000409BA9 /* Leetcode289.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF49ACE823A8B61000409BA9 /* Leetcode289.cpp */; };
+		BF4B07842394962800004E59 /* BDFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF4B07832394962800004E59 /* BDFS.cpp */; };
+		BF51046724582C3C00BA3B72 /* Threads_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF51046624582C3C00BA3B72 /* Threads_1.cpp */; };
+		BF5504C0239F22F900C6EA99 /* Leetcode268.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF5504BF239F22F900C6EA99 /* Leetcode268.cpp */; };
+		BF55906623AA00B0006E8143 /* Leetcode326.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF55904C23A9D800006E8143 /* Leetcode326.cpp */; };
+		BF55906823AA00BF006E8143 /* Leetcode322.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF55906723AA00BF006E8143 /* Leetcode322.cpp */; };
+		BF5590AB23AAFF01006E8143 /* Leetcode679.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF5590AA23AAFF01006E8143 /* Leetcode679.cpp */; };
+		BF56EDCA23B2FB9300B2AEF9 /* Leetcode328.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF56EDC923B2FB9300B2AEF9 /* Leetcode328.cpp */; };
+		BF68D0F823826850003DFAE7 /* Leetcode191.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF68D0F523825899003DFAE7 /* Leetcode191.cpp */; };
+		BF68D1F123837516003DFAE7 /* Leetcode190.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF68D1EF2383723A003DFAE7 /* Leetcode190.cpp */; };
+		BF68D1F223838BAC003DFAE7 /* Leetcode198.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF68D0F923826863003DFAE7 /* Leetcode198.cpp */; };
+		BFA5D47B2362E85100F41FE9 /* NodeHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFA5D4792362E85100F41FE9 /* NodeHelper.cpp */; };
+		BFA5D4D72367183300F41FE9 /* ListNodeHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFA5D4D52367183300F41FE9 /* ListNodeHelper.cpp */; };
+		BFA6380323BED0AA008BF11E /* TestContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF67D9ED2358824A008E3F66 /* TestContainer.cpp */; };
+		BFAA2A12247B6C8C0048C2A5 /* DP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAA2A11247B6C8C0048C2A5 /* DP.cpp */; };
+		BFAE9FD723BB27B500DA2691 /* Leetcode371.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9FB123BAEB3D00DA2691 /* Leetcode371.cpp */; };
+		BFAE9FE523BD8D4100DA2691 /* TestConst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9FE423BD8D4100DA2691 /* TestConst.cpp */; };
+		BFB2031D234ED301004F8BFA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFB2031C234ED301004F8BFA /* main.cpp */; };
+		BFB20328234ED9EB004F8BFA /* Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFB20326234ED9EB004F8BFA /* Helper.cpp */; };
+		BFBC0A312383E6DC001FA178 /* Leetcode179.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF1D8A88237CEFF800C26856 /* Leetcode179.cpp */; };
+		BFBC0A322384DBB9001FA178 /* Leetcode200.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBC08D523839D59001FA178 /* Leetcode200.cpp */; };
+		BFBC0A712385148D001FA178 /* Leetcode215.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBC0A332384DBCA001FA178 /* Leetcode215.cpp */; };
+		BFBC0A7623854665001FA178 /* OJ_11_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBC0A7523854665001FA178 /* OJ_11_1.cpp */; };
+		BFBC0A7823854674001FA178 /* OJ_11_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBC0A7723854674001FA178 /* OJ_11_2.cpp */; };
+		BFBC0A7A23854681001FA178 /* OJ_11_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBC0A7923854681001FA178 /* OJ_11_3.cpp */; };
+		BFBC0A82238764A1001FA178 /* Leetcode212.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFBC0A81238764A1001FA178 /* Leetcode212.cpp */; };
+		BFC5FE54235FF17800FBD009 /* TreeNodeHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFC5FE52235FF17800FBD009 /* TreeNodeHelper.cpp */; };
+		BFD5E7D123C2CB4C00D62E74 /* Leetcode380.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFA6383D23C0276B008BF11E /* Leetcode380.cpp */; };
+		BFD5E7D223C2CB5700D62E74 /* Leetcode378.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAE9FE023BB46A500DA2691 /* Leetcode378.cpp */; };
+		BFD5E7D423C2CB6E00D62E74 /* Leetcode387.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFD5E7D323C2CB6E00D62E74 /* Leetcode387.cpp */; };
+		BFD5E7D723C2E07400D62E74 /* Leetcode412.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFD5E7D523C2D31C00D62E74 /* Leetcode412.cpp */; };
+		BFD5E7DD23C41DBC00D62E74 /* Sort_Merge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFD5E7DC23C41DBB00D62E74 /* Sort_Merge.cpp */; };
+		BFD5E7E023C432ED00D62E74 /* Leetcode395.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFD5E7DA23C2E49300D62E74 /* Leetcode395.cpp */; };
+		BFD5E7E223C55DF000D62E74 /* Leetcode454.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFD5E7D823C2E08300D62E74 /* Leetcode454.cpp */; };
+		BFD5E7E623C5B96F00D62E74 /* Leetcode300.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFD5E7E323C55E7500D62E74 /* Leetcode300.cpp */; };
+		BFD5E80523C8006900D62E74 /* TestTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFD5E80423C8006900D62E74 /* TestTest.cpp */; };
+		BFDBD78E23CF1FED0023A837 /* Leetcode124.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFA5D48E23667E5500F41FE9 /* Leetcode124.cpp */; };
+		BFDBD79123CF1FFE0023A837 /* Leetcode140.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFDBD78F23CF1FFE0023A837 /* Leetcode140.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFB20317234ED301004F8BFA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF02019023D3F2B2003CDD00 /* Leetcode149.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode149.cpp; sourceTree = "<group>"; };
+		BF1D8A7A237ACC4500C26856 /* Leetcode171.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode171.cpp; sourceTree = "<group>"; };
+		BF1D8A7C237AD45A00C26856 /* Leetcode172.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode172.cpp; sourceTree = "<group>"; };
+		BF1D8A7E237B93A600C26856 /* Leetcode169.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode169.cpp; sourceTree = "<group>"; };
+		BF1D8A80237B9EEB00C26856 /* Leetcode166.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode166.cpp; sourceTree = "<group>"; };
+		BF1D8A82237BD98100C26856 /* Leetcode128.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode128.cpp; sourceTree = "<group>"; };
+		BF1D8A88237CEFF800C26856 /* Leetcode179.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode179.cpp; sourceTree = "<group>"; };
+		BF229D2023D52E0000AB63B9 /* GCD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GCD.cpp; sourceTree = "<group>"; };
+		BF28B8712351B52A00757F92 /* DP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DP.cpp; sourceTree = "<group>"; };
+		BF2FF47523502B500051E907 /* Leetcode10.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode10.cpp; sourceTree = "<group>"; };
+		BF3CAF8A238B909D0095EF82 /* Leetcode217.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode217.cpp; sourceTree = "<group>"; };
+		BF3CAF8C238BA4640095EF82 /* Leetcode202.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode202.cpp; sourceTree = "<group>"; };
+		BF3CAF8E238BA5AB0095EF82 /* Leetcode204.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode204.cpp; sourceTree = "<group>"; };
+		BF3CAF90238BA5BA0095EF82 /* Leetcode206.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode206.cpp; sourceTree = "<group>"; };
+		BF3CAF92238BA5C90095EF82 /* Leetcode207.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode207.cpp; sourceTree = "<group>"; };
+		BF3CAF94238BA5D60095EF82 /* Leetcode208.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode208.cpp; sourceTree = "<group>"; };
+		BF3CAF96238BA5E70095EF82 /* Leetcode210.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode210.cpp; sourceTree = "<group>"; };
+		BF3CAFCE238F53580095EF82 /* Stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stack.cpp; sourceTree = "<group>"; };
+		BF3CAFD0238F5E410095EF82 /* Queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Queue.cpp; sourceTree = "<group>"; };
+		BF45C10C23CC2A86006694A1 /* TestString.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestString.cpp; sourceTree = "<group>"; };
+		BF49ACE523A8A5C900409BA9 /* Leetcode287.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode287.cpp; sourceTree = "<group>"; };
+		BF49ACE823A8B61000409BA9 /* Leetcode289.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode289.cpp; sourceTree = "<group>"; };
+		BF4B07832394962800004E59 /* BDFS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BDFS.cpp; sourceTree = "<group>"; };
+		BF4B078A239661C200004E59 /* Leetcode227.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode227.cpp; sourceTree = "<group>"; };
+		BF4B078D23975F6100004E59 /* Leetcode237.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode237.cpp; sourceTree = "<group>"; };
+		BF4B079123977EB600004E59 /* Leetcode234.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode234.cpp; sourceTree = "<group>"; };
+		BF4B079423979E1300004E59 /* Leetcode230.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode230.cpp; sourceTree = "<group>"; };
+		BF4B079623979E2300004E59 /* Leetcode236.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode236.cpp; sourceTree = "<group>"; };
+		BF4B079823979E3400004E59 /* Leetcode238.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode238.cpp; sourceTree = "<group>"; };
+		BF51046624582C3C00BA3B72 /* Threads_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Threads_1.cpp; sourceTree = "<group>"; };
+		BF5310F2237045E2004DCF94 /* Leetcode160.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode160.cpp; sourceTree = "<group>"; };
+		BF5310F42370FB0A004DCF94 /* Leetcode148.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode148.cpp; sourceTree = "<group>"; };
+		BF5504B42399DE0200C6EA99 /* Sort_Select.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sort_Select.cpp; sourceTree = "<group>"; };
+		BF5504B62399E6B100C6EA99 /* Sort_Insert.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sort_Insert.cpp; sourceTree = "<group>"; };
+		BF5504BC239DD1B700C6EA99 /* Leetcode242.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode242.cpp; sourceTree = "<group>"; };
+		BF5504BF239F22F900C6EA99 /* Leetcode268.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode268.cpp; sourceTree = "<group>"; };
+		BF55904C23A9D800006E8143 /* Leetcode326.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode326.cpp; sourceTree = "<group>"; };
+		BF55906723AA00BF006E8143 /* Leetcode322.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode322.cpp; sourceTree = "<group>"; };
+		BF5590AA23AAFF01006E8143 /* Leetcode679.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode679.cpp; sourceTree = "<group>"; };
+		BF5593C423ACC118006E8143 /* Leetcode240.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode240.cpp; sourceTree = "<group>"; };
+		BF5593C723B0501E006E8143 /* Leetcode344.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode344.cpp; sourceTree = "<group>"; };
+		BF5593DA23B053AE006E8143 /* Leetcode341.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode341.cpp; sourceTree = "<group>"; };
+		BF56EDC623B2EA5B00B2AEF9 /* Leetcode334.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode334.cpp; sourceTree = "<group>"; };
+		BF56EDC923B2FB9300B2AEF9 /* Leetcode328.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode328.cpp; sourceTree = "<group>"; };
+		BF66AA6B23B58C8700928A72 /* Leetcode324.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode324.cpp; sourceTree = "<group>"; };
+		BF67D9C42355BA54008E3F66 /* ExchangeBottle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ExchangeBottle.cpp; sourceTree = "<group>"; };
+		BF67D9C72355BFAA008E3F66 /* WightNum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WightNum.cpp; sourceTree = "<group>"; };
+		BF67D9CA23569E6C008E3F66 /* Leetcode84.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode84.cpp; sourceTree = "<group>"; };
+		BF67D9CC2356C0F5008E3F66 /* Leetcode42.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode42.cpp; sourceTree = "<group>"; };
+		BF67D9CE2357F3C7008E3F66 /* Leetcode41.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode41.cpp; sourceTree = "<group>"; };
+		BF67D9ED2358824A008E3F66 /* TestContainer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestContainer.cpp; sourceTree = "<group>"; };
+		BF68D0F523825899003DFAE7 /* Leetcode191.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode191.cpp; sourceTree = "<group>"; };
+		BF68D0F923826863003DFAE7 /* Leetcode198.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode198.cpp; sourceTree = "<group>"; };
+		BF68D1EF2383723A003DFAE7 /* Leetcode190.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode190.cpp; sourceTree = "<group>"; };
+		BF68D1F323838BBA003DFAE7 /* Leetcode189.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode189.cpp; sourceTree = "<group>"; };
+		BF745C0C236006C5003E4DC3 /* Leetcode122.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode122.cpp; sourceTree = "<group>"; };
+		BF7B5DEB236043E900194FA1 /* Leetcode136.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode136.cpp; sourceTree = "<group>"; };
+		BF847B1623686B0A004558EF /* Leetcode139.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode139.cpp; sourceTree = "<group>"; };
+		BF847B352369B3AE004558EF /* Leetcode134.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode134.cpp; sourceTree = "<group>"; };
+		BF847B37236A7F4C004558EF /* Leetcode138.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode138.cpp; sourceTree = "<group>"; };
+		BF879843236FB61C00EF4267 /* Leetcode155.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode155.cpp; sourceTree = "<group>"; };
+		BF930FEA23BAE04A007CE0DB /* Leetcode384.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode384.cpp; sourceTree = "<group>"; };
+		BF9B88AD23A0704500AAC047 /* Leetcode283.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode283.cpp; sourceTree = "<group>"; };
+		BF9B88B023A0807C00AAC047 /* Leetcode279.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode279.cpp; sourceTree = "<group>"; };
+		BFA4D6D22374FAE20090AF4E /* Leetcode162.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode162.cpp; sourceTree = "<group>"; };
+		BFA4D6D4237503630090AF4E /* Leetcode152.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode152.cpp; sourceTree = "<group>"; };
+		BFA4D6D623751BE60090AF4E /* Leetcode146.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode146.cpp; sourceTree = "<group>"; };
+		BFA5D466236137E000F41FE9 /* Leetcode94.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode94.cpp; sourceTree = "<group>"; };
+		BFA5D46823618D4C00F41FE9 /* Leetcode98.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode98.cpp; sourceTree = "<group>"; };
+		BFA5D46A2361C73100F41FE9 /* Leetcode102.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode102.cpp; sourceTree = "<group>"; };
+		BFA5D46C23627C7C00F41FE9 /* Leetcode103.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode103.cpp; sourceTree = "<group>"; };
+		BFA5D46E23628E5900F41FE9 /* Leetcode104.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode104.cpp; sourceTree = "<group>"; };
+		BFA5D4702362923B00F41FE9 /* Leetcode105.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode105.cpp; sourceTree = "<group>"; };
+		BFA5D4722362E03000F41FE9 /* Leetcode108.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode108.cpp; sourceTree = "<group>"; };
+		BFA5D4792362E85100F41FE9 /* NodeHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NodeHelper.cpp; sourceTree = "<group>"; };
+		BFA5D47A2362E85100F41FE9 /* NodeHelper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NodeHelper.hpp; sourceTree = "<group>"; };
+		BFA5D47C2362E8A800F41FE9 /* Leetcode116.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode116.cpp; sourceTree = "<group>"; };
+		BFA5D47E2362EA8300F41FE9 /* Leetcode118.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode118.cpp; sourceTree = "<group>"; };
+		BFA5D48E23667E5500F41FE9 /* Leetcode124.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode124.cpp; sourceTree = "<group>"; };
+		BFA5D4CB236703F000F41FE9 /* Leetcode125.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode125.cpp; sourceTree = "<group>"; };
+		BFA5D4CD23670C9D00F41FE9 /* Leetcode127.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode127.cpp; sourceTree = "<group>"; };
+		BFA5D4CF2367117800F41FE9 /* Leetcode130.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode130.cpp; sourceTree = "<group>"; };
+		BFA5D4D1236712A000F41FE9 /* Leetcode131.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode131.cpp; sourceTree = "<group>"; };
+		BFA5D4D3236717E100F41FE9 /* Leetcode141.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode141.cpp; sourceTree = "<group>"; };
+		BFA5D4D52367183300F41FE9 /* ListNodeHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ListNodeHelper.cpp; sourceTree = "<group>"; };
+		BFA5D4D62367183300F41FE9 /* ListNodeHelper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListNodeHelper.hpp; sourceTree = "<group>"; };
+		BFA6383D23C0276B008BF11E /* Leetcode380.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode380.cpp; sourceTree = "<group>"; };
+		BFAA2A11247B6C8C0048C2A5 /* DP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DP.cpp; sourceTree = "<group>"; };
+		BFAE9FB123BAEB3D00DA2691 /* Leetcode371.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode371.cpp; sourceTree = "<group>"; };
+		BFAE9FD823BB27D400DA2691 /* Leetcode350.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode350.cpp; sourceTree = "<group>"; };
+		BFAE9FDD23BB34D400DA2691 /* Leetcode347.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode347.cpp; sourceTree = "<group>"; };
+		BFAE9FE023BB46A500DA2691 /* Leetcode378.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode378.cpp; sourceTree = "<group>"; };
+		BFAE9FE423BD8D4100DA2691 /* TestConst.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestConst.cpp; sourceTree = "<group>"; };
+		BFB20319234ED301004F8BFA /* Xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Xcode; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB2031C234ED301004F8BFA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BFB20323234ED332004F8BFA /* Leetcode76.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode76.cpp; sourceTree = "<group>"; };
+		BFB20324234ED332004F8BFA /* Header.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Header.hpp; sourceTree = "<group>"; };
+		BFB20326234ED9EB004F8BFA /* Helper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Helper.cpp; sourceTree = "<group>"; };
+		BFB2032B234EDC0F004F8BFA /* Helper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Helper.hpp; sourceTree = "<group>"; };
+		BFB8B7082373AE6B0098863A /* Leetcode150.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode150.cpp; sourceTree = "<group>"; };
+		BFBC08D523839D59001FA178 /* Leetcode200.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode200.cpp; sourceTree = "<group>"; };
+		BFBC0A332384DBCA001FA178 /* Leetcode215.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode215.cpp; sourceTree = "<group>"; };
+		BFBC0A7323853E53001FA178 /* Sort_Quick.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sort_Quick.cpp; sourceTree = "<group>"; };
+		BFBC0A7523854665001FA178 /* OJ_11_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OJ_11_1.cpp; path = Xcode/Sort/OJ_11_1.cpp; sourceTree = SOURCE_ROOT; };
+		BFBC0A7723854674001FA178 /* OJ_11_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OJ_11_2.cpp; path = Xcode/Sort/OJ_11_2.cpp; sourceTree = SOURCE_ROOT; };
+		BFBC0A7923854681001FA178 /* OJ_11_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OJ_11_3.cpp; path = Xcode/Sort/OJ_11_3.cpp; sourceTree = SOURCE_ROOT; };
+		BFBC0A7B2385468D001FA178 /* OJ_11_4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = OJ_11_4.cpp; path = Xcode/Sort/OJ_11_4.cpp; sourceTree = SOURCE_ROOT; };
+		BFBC0A7E2386290C001FA178 /* Find_Half.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Find_Half.cpp; sourceTree = "<group>"; };
+		BFBC0A81238764A1001FA178 /* Leetcode212.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode212.cpp; sourceTree = "<group>"; };
+		BFC5FC8D235D4F4C00FBD009 /* Leetcode44.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode44.cpp; sourceTree = "<group>"; };
+		BFC5FE50235FEEFA00FBD009 /* Leetcode101.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode101.cpp; sourceTree = "<group>"; };
+		BFC5FE52235FF17800FBD009 /* TreeNodeHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeNodeHelper.cpp; sourceTree = "<group>"; };
+		BFC5FE53235FF17800FBD009 /* TreeNodeHelper.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TreeNodeHelper.hpp; sourceTree = "<group>"; };
+		BFC5FE55235FF20900FBD009 /* Leetcode121.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode121.cpp; sourceTree = "<group>"; };
+		BFD5E7D323C2CB6E00D62E74 /* Leetcode387.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode387.cpp; sourceTree = "<group>"; };
+		BFD5E7D523C2D31C00D62E74 /* Leetcode412.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode412.cpp; sourceTree = "<group>"; };
+		BFD5E7D823C2E08300D62E74 /* Leetcode454.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode454.cpp; sourceTree = "<group>"; };
+		BFD5E7DA23C2E49300D62E74 /* Leetcode395.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode395.cpp; sourceTree = "<group>"; };
+		BFD5E7DC23C41DBB00D62E74 /* Sort_Merge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sort_Merge.cpp; sourceTree = "<group>"; };
+		BFD5E7E323C55E7500D62E74 /* Leetcode300.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode300.cpp; sourceTree = "<group>"; };
+		BFD5E80423C8006900D62E74 /* TestTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestTest.cpp; sourceTree = "<group>"; };
+		BFDBD78F23CF1FFE0023A837 /* Leetcode140.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Leetcode140.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFB20316234ED301004F8BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1D8A8A237CF01400C26856 /* Temp */ = {
+			isa = PBXGroup;
+			children = (
+				BF3CAF8E238BA5AB0095EF82 /* Leetcode204.cpp */,
+				BF3CAF96238BA5E70095EF82 /* Leetcode210.cpp */,
+				BFBC0A81238764A1001FA178 /* Leetcode212.cpp */,
+				BF5504BF239F22F900C6EA99 /* Leetcode268.cpp */,
+				BF49ACE823A8B61000409BA9 /* Leetcode289.cpp */,
+				BF55906723AA00BF006E8143 /* Leetcode322.cpp */,
+				BF5590AA23AAFF01006E8143 /* Leetcode679.cpp */,
+				BF5593DA23B053AE006E8143 /* Leetcode341.cpp */,
+				BF56EDC923B2FB9300B2AEF9 /* Leetcode328.cpp */,
+				BF66AA6B23B58C8700928A72 /* Leetcode324.cpp */,
+				BFD5E7D323C2CB6E00D62E74 /* Leetcode387.cpp */,
+				BFDBD78F23CF1FFE0023A837 /* Leetcode140.cpp */,
+				BF02019023D3F2B2003CDD00 /* Leetcode149.cpp */,
+			);
+			path = Temp;
+			sourceTree = "<group>";
+		};
+		BF28B8702351B37400757F92 /* OJ */ = {
+			isa = PBXGroup;
+			children = (
+				BFC5FC8D235D4F4C00FBD009 /* Leetcode44.cpp */,
+				BF55904C23A9D800006E8143 /* Leetcode326.cpp */,
+				BFBC0A7523854665001FA178 /* OJ_11_1.cpp */,
+				BFBC0A7723854674001FA178 /* OJ_11_2.cpp */,
+				BFBC0A7923854681001FA178 /* OJ_11_3.cpp */,
+				BFBC0A7B2385468D001FA178 /* OJ_11_4.cpp */,
+			);
+			path = OJ;
+			sourceTree = "<group>";
+		};
+		BF2FF4862351651B0051E907 /* Leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				BFA5D48E23667E5500F41FE9 /* Leetcode124.cpp */,
+				BF2FF47523502B500051E907 /* Leetcode10.cpp */,
+				BF67D9CE2357F3C7008E3F66 /* Leetcode41.cpp */,
+				BF67D9CC2356C0F5008E3F66 /* Leetcode42.cpp */,
+				BFB20323234ED332004F8BFA /* Leetcode76.cpp */,
+				BF67D9CA23569E6C008E3F66 /* Leetcode84.cpp */,
+				BFA5D466236137E000F41FE9 /* Leetcode94.cpp */,
+				BFA5D46823618D4C00F41FE9 /* Leetcode98.cpp */,
+				BFC5FE50235FEEFA00FBD009 /* Leetcode101.cpp */,
+				BFA5D46A2361C73100F41FE9 /* Leetcode102.cpp */,
+				BFA5D46C23627C7C00F41FE9 /* Leetcode103.cpp */,
+				BFA5D46E23628E5900F41FE9 /* Leetcode104.cpp */,
+				BFA5D4702362923B00F41FE9 /* Leetcode105.cpp */,
+				BFA5D4722362E03000F41FE9 /* Leetcode108.cpp */,
+				BFA5D47C2362E8A800F41FE9 /* Leetcode116.cpp */,
+				BFA5D47E2362EA8300F41FE9 /* Leetcode118.cpp */,
+				BFC5FE55235FF20900FBD009 /* Leetcode121.cpp */,
+				BF745C0C236006C5003E4DC3 /* Leetcode122.cpp */,
+				BFA5D4CB236703F000F41FE9 /* Leetcode125.cpp */,
+				BFA5D4CD23670C9D00F41FE9 /* Leetcode127.cpp */,
+				BF1D8A82237BD98100C26856 /* Leetcode128.cpp */,
+				BFA5D4CF2367117800F41FE9 /* Leetcode130.cpp */,
+				BFA5D4D1236712A000F41FE9 /* Leetcode131.cpp */,
+				BF847B352369B3AE004558EF /* Leetcode134.cpp */,
+				BF7B5DEB236043E900194FA1 /* Leetcode136.cpp */,
+				BF847B37236A7F4C004558EF /* Leetcode138.cpp */,
+				BF847B1623686B0A004558EF /* Leetcode139.cpp */,
+				BFA5D4D3236717E100F41FE9 /* Leetcode141.cpp */,
+				BFA4D6D623751BE60090AF4E /* Leetcode146.cpp */,
+				BF5310F42370FB0A004DCF94 /* Leetcode148.cpp */,
+				BFB8B7082373AE6B0098863A /* Leetcode150.cpp */,
+				BFA4D6D4237503630090AF4E /* Leetcode152.cpp */,
+				BF879843236FB61C00EF4267 /* Leetcode155.cpp */,
+				BF5310F2237045E2004DCF94 /* Leetcode160.cpp */,
+				BFA4D6D22374FAE20090AF4E /* Leetcode162.cpp */,
+				BF1D8A80237B9EEB00C26856 /* Leetcode166.cpp */,
+				BF1D8A7E237B93A600C26856 /* Leetcode169.cpp */,
+				BF1D8A7A237ACC4500C26856 /* Leetcode171.cpp */,
+				BF1D8A7C237AD45A00C26856 /* Leetcode172.cpp */,
+				BF1D8A88237CEFF800C26856 /* Leetcode179.cpp */,
+				BF68D1F323838BBA003DFAE7 /* Leetcode189.cpp */,
+				BF68D1EF2383723A003DFAE7 /* Leetcode190.cpp */,
+				BF68D0F523825899003DFAE7 /* Leetcode191.cpp */,
+				BF68D0F923826863003DFAE7 /* Leetcode198.cpp */,
+				BFBC08D523839D59001FA178 /* Leetcode200.cpp */,
+				BF3CAF8C238BA4640095EF82 /* Leetcode202.cpp */,
+				BF3CAF90238BA5BA0095EF82 /* Leetcode206.cpp */,
+				BF3CAF92238BA5C90095EF82 /* Leetcode207.cpp */,
+				BF3CAF94238BA5D60095EF82 /* Leetcode208.cpp */,
+				BFBC0A332384DBCA001FA178 /* Leetcode215.cpp */,
+				BF3CAF8A238B909D0095EF82 /* Leetcode217.cpp */,
+				BF4B078A239661C200004E59 /* Leetcode227.cpp */,
+				BF4B079423979E1300004E59 /* Leetcode230.cpp */,
+				BF4B079123977EB600004E59 /* Leetcode234.cpp */,
+				BF4B079623979E2300004E59 /* Leetcode236.cpp */,
+				BF4B078D23975F6100004E59 /* Leetcode237.cpp */,
+				BF4B079823979E3400004E59 /* Leetcode238.cpp */,
+				BF5593C423ACC118006E8143 /* Leetcode240.cpp */,
+				BF5504BC239DD1B700C6EA99 /* Leetcode242.cpp */,
+				BF9B88B023A0807C00AAC047 /* Leetcode279.cpp */,
+				BF9B88AD23A0704500AAC047 /* Leetcode283.cpp */,
+				BF49ACE523A8A5C900409BA9 /* Leetcode287.cpp */,
+				BFD5E7E323C55E7500D62E74 /* Leetcode300.cpp */,
+				BF56EDC623B2EA5B00B2AEF9 /* Leetcode334.cpp */,
+				BF5593C723B0501E006E8143 /* Leetcode344.cpp */,
+				BFAE9FDD23BB34D400DA2691 /* Leetcode347.cpp */,
+				BFAE9FD823BB27D400DA2691 /* Leetcode350.cpp */,
+				BFAE9FB123BAEB3D00DA2691 /* Leetcode371.cpp */,
+				BFAE9FE023BB46A500DA2691 /* Leetcode378.cpp */,
+				BFA6383D23C0276B008BF11E /* Leetcode380.cpp */,
+				BF930FEA23BAE04A007CE0DB /* Leetcode384.cpp */,
+				BFD5E7DA23C2E49300D62E74 /* Leetcode395.cpp */,
+				BFD5E7D523C2D31C00D62E74 /* Leetcode412.cpp */,
+				BFD5E7D823C2E08300D62E74 /* Leetcode454.cpp */,
+			);
+			path = Leetcode;
+			sourceTree = "<group>";
+		};
+		BF67D9C62355BDD2008E3F66 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BF67D9C42355BA54008E3F66 /* ExchangeBottle.cpp */,
+				BF28B8712351B52A00757F92 /* DP.cpp */,
+				BF67D9C72355BFAA008E3F66 /* WightNum.cpp */,
+				BF3CAFCE238F53580095EF82 /* Stack.cpp */,
+				BF3CAFD0238F5E410095EF82 /* Queue.cpp */,
+				BF4B07832394962800004E59 /* BDFS.cpp */,
+				BF229D2023D52E0000AB63B9 /* GCD.cpp */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BF67D9EC23588219008E3F66 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				BF67D9ED2358824A008E3F66 /* TestContainer.cpp */,
+				BFAE9FE423BD8D4100DA2691 /* TestConst.cpp */,
+				BFD5E80423C8006900D62E74 /* TestTest.cpp */,
+				BF45C10C23CC2A86006694A1 /* TestString.cpp */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		BF896565245692D500A2A624 /* Threads */ = {
+			isa = PBXGroup;
+			children = (
+				BF51046624582C3C00BA3B72 /* Threads_1.cpp */,
+			);
+			path = Threads;
+			sourceTree = "<group>";
+		};
+		BFA5D4D82367183B00F41FE9 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				BFC5FE53235FF17800FBD009 /* TreeNodeHelper.hpp */,
+				BFC5FE52235FF17800FBD009 /* TreeNodeHelper.cpp */,
+				BFA5D47A2362E85100F41FE9 /* NodeHelper.hpp */,
+				BFA5D4792362E85100F41FE9 /* NodeHelper.cpp */,
+				BFA5D4D62367183300F41FE9 /* ListNodeHelper.hpp */,
+				BFA5D4D52367183300F41FE9 /* ListNodeHelper.cpp */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
+		BFAA2A10247B6C5F0048C2A5 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA2A11247B6C8C0048C2A5 /* DP.cpp */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		BFB20310234ED301004F8BFA = {
+			isa = PBXGroup;
+			children = (
+				BFB2031B234ED301004F8BFA /* Xcode */,
+				BFB2031A234ED301004F8BFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFB2031A234ED301004F8BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFB20319234ED301004F8BFA /* Xcode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFB2031B234ED301004F8BFA /* Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				BFAA2A10247B6C5F0048C2A5 /* Algorithm */,
+				BF896565245692D500A2A624 /* Threads */,
+				BFBC0A7D238628E2001FA178 /* Find */,
+				BFBC0A7223853E1E001FA178 /* Sort */,
+				BF1D8A8A237CF01400C26856 /* Temp */,
+				BFA5D4D82367183B00F41FE9 /* Node */,
+				BF67D9EC23588219008E3F66 /* Test */,
+				BF67D9C62355BDD2008E3F66 /* Other */,
+				BF28B8702351B37400757F92 /* OJ */,
+				BF2FF4862351651B0051E907 /* Leetcode */,
+				BFB20324234ED332004F8BFA /* Header.hpp */,
+				BFB2031C234ED301004F8BFA /* main.cpp */,
+				BFB2032B234EDC0F004F8BFA /* Helper.hpp */,
+				BFB20326234ED9EB004F8BFA /* Helper.cpp */,
+			);
+			path = Xcode;
+			sourceTree = "<group>";
+		};
+		BFBC0A7223853E1E001FA178 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				BFBC0A7323853E53001FA178 /* Sort_Quick.cpp */,
+				BF5504B42399DE0200C6EA99 /* Sort_Select.cpp */,
+				BF5504B62399E6B100C6EA99 /* Sort_Insert.cpp */,
+				BFD5E7DC23C41DBB00D62E74 /* Sort_Merge.cpp */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		BFBC0A7D238628E2001FA178 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				BFBC0A7E2386290C001FA178 /* Find_Half.cpp */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFB20318234ED301004F8BFA /* Xcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB20320234ED301004F8BFA /* Build configuration list for PBXNativeTarget "Xcode" */;
+			buildPhases = (
+				BFB20315234ED301004F8BFA /* Sources */,
+				BFB20316234ED301004F8BFA /* Frameworks */,
+				BFB20317234ED301004F8BFA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Xcode;
+			productName = Xcode;
+			productReference = BFB20319234ED301004F8BFA /* Xcode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFB20311234ED301004F8BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Dahua;
+				TargetAttributes = {
+					BFB20318234ED301004F8BFA = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = BFB20314234ED301004F8BFA /* Build configuration list for PBXProject "Xcode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFB20310234ED301004F8BFA;
+			productRefGroup = BFB2031A234ED301004F8BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFB20318234ED301004F8BFA /* Xcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFB20315234ED301004F8BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD5E80523C8006900D62E74 /* TestTest.cpp in Sources */,
+				BFD5E7DD23C41DBC00D62E74 /* Sort_Merge.cpp in Sources */,
+				BFAE9FD723BB27B500DA2691 /* Leetcode371.cpp in Sources */,
+				BF49ACE923A8B61000409BA9 /* Leetcode289.cpp in Sources */,
+				BFD5E7D723C2E07400D62E74 /* Leetcode412.cpp in Sources */,
+				BFD5E7E223C55DF000D62E74 /* Leetcode454.cpp in Sources */,
+				BF229D2123D52E0100AB63B9 /* GCD.cpp in Sources */,
+				BFBC0A7A23854681001FA178 /* OJ_11_3.cpp in Sources */,
+				BF68D0F823826850003DFAE7 /* Leetcode191.cpp in Sources */,
+				BFDBD79123CF1FFE0023A837 /* Leetcode140.cpp in Sources */,
+				BF3CAFD1238F5E410095EF82 /* Queue.cpp in Sources */,
+				BFBC0A82238764A1001FA178 /* Leetcode212.cpp in Sources */,
+				BF55906623AA00B0006E8143 /* Leetcode326.cpp in Sources */,
+				BF45C10D23CC2A86006694A1 /* TestString.cpp in Sources */,
+				BF68D1F123837516003DFAE7 /* Leetcode190.cpp in Sources */,
+				BFAA2A12247B6C8C0048C2A5 /* DP.cpp in Sources */,
+				BF55906823AA00BF006E8143 /* Leetcode322.cpp in Sources */,
+				BF3CAF8B238B909E0095EF82 /* Leetcode217.cpp in Sources */,
+				BF3CAFA8238CE1D60095EF82 /* Leetcode206.cpp in Sources */,
+				BF51046724582C3C00BA3B72 /* Threads_1.cpp in Sources */,
+				BF45C12C23CC5E1B006694A1 /* Leetcode44.cpp in Sources */,
+				BFD5E7E623C5B96F00D62E74 /* Leetcode300.cpp in Sources */,
+				BFBC0A712385148D001FA178 /* Leetcode215.cpp in Sources */,
+				BFBC0A322384DBB9001FA178 /* Leetcode200.cpp in Sources */,
+				BFA6380323BED0AA008BF11E /* TestContainer.cpp in Sources */,
+				BFDBD78E23CF1FED0023A837 /* Leetcode124.cpp in Sources */,
+				BF02019123D3F2B2003CDD00 /* Leetcode149.cpp in Sources */,
+				BFBC0A7623854665001FA178 /* OJ_11_1.cpp in Sources */,
+				BFBC0A7823854674001FA178 /* OJ_11_2.cpp in Sources */,
+				BF1D8A83237BD98100C26856 /* Leetcode128.cpp in Sources */,
+				BF3CAFA9238E12590095EF82 /* Leetcode202.cpp in Sources */,
+				BF68D1F223838BAC003DFAE7 /* Leetcode198.cpp in Sources */,
+				BFBC0A312383E6DC001FA178 /* Leetcode179.cpp in Sources */,
+				BF5504C0239F22F900C6EA99 /* Leetcode268.cpp in Sources */,
+				BF3CAF8F238BA5AB0095EF82 /* Leetcode204.cpp in Sources */,
+				BFB2031D234ED301004F8BFA /* main.cpp in Sources */,
+				BFD5E7D223C2CB5700D62E74 /* Leetcode378.cpp in Sources */,
+				BFA5D47B2362E85100F41FE9 /* NodeHelper.cpp in Sources */,
+				BFB20328234ED9EB004F8BFA /* Helper.cpp in Sources */,
+				BFAE9FE523BD8D4100DA2691 /* TestConst.cpp in Sources */,
+				BF4B07842394962800004E59 /* BDFS.cpp in Sources */,
+				BF5590AB23AAFF01006E8143 /* Leetcode679.cpp in Sources */,
+				BF3CAFCF238F53580095EF82 /* Stack.cpp in Sources */,
+				BFA5D4D72367183300F41FE9 /* ListNodeHelper.cpp in Sources */,
+				BFD5E7D123C2CB4C00D62E74 /* Leetcode380.cpp in Sources */,
+				BFD5E7D423C2CB6E00D62E74 /* Leetcode387.cpp in Sources */,
+				BF56EDCA23B2FB9300B2AEF9 /* Leetcode328.cpp in Sources */,
+				BFC5FE54235FF17800FBD009 /* TreeNodeHelper.cpp in Sources */,
+				BFD5E7E023C432ED00D62E74 /* Leetcode395.cpp in Sources */,
+				BF3CAF97238BA5E70095EF82 /* Leetcode210.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BFB2031E234ED301004F8BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFB2031F234ED301004F8BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFB20321234ED301004F8BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7K7Q399L6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		BFB20322234ED301004F8BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7K7Q399L6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFB20314234ED301004F8BFA /* Build configuration list for PBXProject "Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB2031E234ED301004F8BFA /* Debug */,
+				BFB2031F234ED301004F8BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB20320234ED301004F8BFA /* Build configuration list for PBXNativeTarget "Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB20321234ED301004F8BFA /* Debug */,
+				BFB20322234ED301004F8BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFB20311234ED301004F8BFA /* Project object */;
+}
