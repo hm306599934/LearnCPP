@@ -209,7 +209,7 @@ using namespace MY_NAMESPACE;
 void Algorithm::main_dp() {
 
     cout << seats(43) <<endl;
-    cout << MY_NAMESPACE::stack(42) <<endl;
+    cout << MY_NAMESPACE::stack(40) <<endl;
 
 }
 
