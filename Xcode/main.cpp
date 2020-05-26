@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
     //Other::main_BDFS();
     //Sort::main_merge();
     //Test::main_testTest();
-    Algorithm::main_dp();
+    Algorithm::main_common();
     //Threads::main_threads_1();
     std::cout << "\n-------------------------\n";
     return 0;

@@ -161,14 +161,6 @@ public:
     static void main_half();
 };
 
-class OJ {
-public:
-    static void main_11_1();
-    static void main_11_2();
-    static void main_11_3();
-    static void main_11_4();
-};
-
 class Threads {
 public:
     static void main_threads_1();
@@ -177,6 +169,7 @@ public:
 class Algorithm {
 public:
     static void main_dp();
+    static void main_common();
 };
 
 }
